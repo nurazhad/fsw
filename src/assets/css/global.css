@@ -1,0 +1,425 @@
+body {
+  background-color: #ffff;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* TYPOGRAPY */
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: #152c5b;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 42px;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 28px;
+}
+
+h3 {
+  font-weight: 700;
+  font-size: 24px;
+}
+
+h4 {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+h5 {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+h6 {
+  font-weight: 300;
+  font-size: 18px;
+  color: #b0b0b0;
+}
+
+p {
+  font-weight: 300;
+  font-size: 16px;
+  color: #b0b0b0;
+}
+
+.text-red {
+  color: red;
+}
+
+/* MARGIN NEGATIVE */
+.mb-n3 {
+  margin-bottom: -1rem !important;
+}
+
+.mb-n4 {
+  margin-bottom: -1.25rem !important;
+}
+
+.mb-n5 {
+  margin-bottom: -3rem !important;
+}
+
+/* Brand TextIcon */
+.brand-text-icon {
+  font-size: 26px;
+  font-weight: 500;
+  color: #023e7d;
+  text-decoration: none;
+}
+
+.brand-text-icon :hover {
+  color: #0466C8;
+}
+
+.brand-text-span {
+  color: #0466C8;
+}
+
+/* BUTTON */
+.btn-primary {
+  background: #023e7d;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #0d47a1;
+  border-color: #0d47a1;
+}
+
+.btn-secondary {
+  background-color: #0466C8;
+  border-color: #0466C8;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 16px;
+  color: #fff;
+}
+
+.btn-secondary:hover {
+  background: #002855;
+  color: #ffff;
+}
+
+.btn-outline-secondary {
+  color: #0466C8;
+  border-color: #0466C8;
+}
+
+.btn-outline-secondary:hover {
+  color: #fff;
+  background-color: #0466C8;
+  border-color: #0466C8;
+}
+
+.btn-outline-secondary:active {
+  color: #fff;
+  background-color: #0466C8;
+  border-color: #0466C8;
+}
+
+.btn-outline-secondary:focus {
+  color: #fff;
+  background-color: #0466C8;
+  border-color: #0466C8;
+  box-shadow: 0px 8px 15px rgba(25, 118, 210, 0.3);
+}
+
+.btn-third {
+  background: #126782;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.btn-third:hover {
+  background-color: transparent;
+  border-color: #126782;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 16px;
+  color: #000;
+}
+
+.btn-warning {
+  background: #fb8500;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 16px;
+  color: #000;
+}
+
+.btn-warning:hover {
+  background: #fd9e02;
+  color: #000;
+}
+
+.btn-shadow {
+  box-shadow: 0px 8px 15px rgba(25, 118, 210, 0.3);
+}
+
+.btn-active {
+  background: #0466C8;
+  color: #fff;
+}
+
+.is-block {
+  width: 100%;
+}
+
+.btn-none-style {
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
+}
+
+.btn-has-radius {
+  border-radius: 15px;
+}
+
+.btn-secondary.disabled,
+.btn-secondary:disabled {
+  background-color: #023e7d;
+  border-color: #023e7d;
+  opacity: 1 !important;
+}
+
+.null-illustration img {
+  width: 200px;
+}
+
+.zoom:hover {
+  -ms-transform: scale(1.2);
+  /* IE 9 */
+  -webkit-transform: scale(1.2);
+  /* Safari 3-8 */
+  transform: scale(1.2);
+}
+
+.arrow-back {
+  z-index: 5;
+  color: #152c5b;
+}
+
+.navbar {
+  background: #ffffff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+}
+
+.navbar-light input {
+  background: #eeeeee;
+  border-radius: 16px;
+  width: 300px;
+}
+
+button.dropdown-item {
+  text-decoration: none;
+}
+
+.dropdown-menu .item {
+  color: #152c5b;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: context-menu;
+}
+
+.dropdown-menu .item:hover {
+  background-color: transparent;
+}
+
+.dropdown-menu.show {
+  display: block;
+  margin-left: -60px;
+}
+
+.span-dropdown {
+  font-weight: 500;
+  margin-right: 5px;
+}
+
+.dropstart .dropdown-menu[data-bs-popper] {
+  margin: 35px -30px 0px 0px;
+}
+
+.form-control.search-form {
+  background: #eeeeee;
+  border-radius: 16px;
+  height: 40px;
+}
+
+.fas[data-count] {
+  position: relative;
+}
+
+.fas[data-count]:after {
+  position: absolute;
+  right: -0.75em;
+  top: -1.725em;
+  content: attr(data-count);
+  padding: 0.5em;
+  border-radius: 10em;
+  line-height: 0.9em;
+  color: white;
+  background: #023e7d;
+  text-align: center;
+  min-width: 2em;
+  font: bold 0.4em sans-serif;
+}
+
+section {
+  margin-top: 40px;
+}
+
+.card {
+  background: #ffffff !important;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+  border-radius: 16px;
+  cursor: context-menu !important;
+}
+
+.card .seller-image {
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+}
+
+.card-product {
+  background: #ffffff;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px 2px;
+  border-radius: 10px;
+}
+
+.card-product .product-img {
+  width: 100%;
+  height: 12rem;
+  border-radius: 2px;
+  object-fit: contain;
+}
+
+.card-product .product-name {
+  min-height: 40px;
+}
+
+.card-product h4,
+p {
+  margin-bottom: 5px;
+}
+
+.card-product .love-wishlist {
+  color: #023e7d;
+}
+
+.card-product .love-wishlist:hover {
+  color: #0466C8;
+}
+
+.customerTag {
+  border-radius: 3px;
+  padding: 0.3em;
+  color: #fff;
+  background-color: #023e7d;
+  margin-left: 0em;
+  font-size: 10px;
+  text-decoration: double;
+  position: relative;
+  bottom: 1em;
+}
+
+
+
+.seller-img-wishlist {
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+}
+
+.seller-name-wishlist {
+  color: #152c5b;
+  font-weight: 500;
+}
+
+footer {
+  border-top: 1px solid #e9ecef;
+  padding-top: 50px;
+}
+
+footer .brand-tagline {
+  margin-top: 8px;
+  color: #adb5bd;
+  font-weight: 300;
+}
+
+footer .list-group-item {
+  padding: 0.3125rem 0;
+  border: 0;
+}
+
+footer .list-group-item a,
+span {
+  color: #adb5bd;
+  font-weight: 300;
+  text-decoration: none;
+}
+
+footer .list-group-item a:hover {
+  color: #343a40;
+}
+
+footer .copyrights {
+  margin: 50px 0;
+  font-weight: 300;
+  color: #adb5bd;
+}
+
+@media (max-width: 576px) {
+  .offcanvas {
+    width: 80%;
+  }
+
+  .modal-dialog.transaction {
+    max-width: 700px;
+    margin: 1.75rem auto;
+  }
+
+  .fas[data-count]:after {
+    top: 0em;
+  }
+}
+
+@media (min-width: 576px) {
+  .modal-dialog.transaction {
+    max-width: 700px;
+    margin: 1.75rem auto;
+  }
+
+  .fas[data-count]:after {
+    top: 0em;
+  }
+}
+
+@media (min-width: 992px) {
+  .offcanvas {
+    width: 50%;
+  }
+
+  .fas[data-count]:after {
+    top: -1.725em;
+  }
+
+}
